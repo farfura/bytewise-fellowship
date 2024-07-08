@@ -1,0 +1,112 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #efeeee;
+    color: #333;
+}
+
+.navbar {
+    margin-bottom: 0; 
+    width: 100%; 
+    border-bottom: 1px solid #ccc; 
+}
+
+.main-heading {
+    font-size: 5rem;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.sub-heading {
+    font-size: 1.1rem;
+    color: #666;
+}
+
+.lead {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.btn-dark {
+    border-radius: 50px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background-color: #000;
+}
+
+.contact-info p {
+    font-weight: bold;
+    color: #333;
+}
+
+.contact-info a {
+    color: #000;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+    color: #555;
+}
+
+.service-item {
+    text-align: left;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.number {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+h2, p {
+    margin: 0;
+    padding: 0.5rem 0;
+}
+
+.project-image {
+    transform: translate(10%, -10%) rotate(20deg) scale(0.6);
+    z-index: -1;
+    width: auto;
+    max-width: 100%;
+    opacity: 0.5;
+}
+
+.accordion-button {
+    background-color: transparent;
+    color: #333;
+    padding: 0.5rem 1rem;
+}
+
+.accordion-button::after {
+    content: '';
+}
+
+.accordion-button:not(.collapsed) .toggle-icon,
+.accordion-button.collapsed .toggle-icon {
+    display: inline-block;
+    float: right;
+}
+
+.accordion-body {
+    font-size: 1rem;
+    color: #666;
+    padding: 1rem;
+}
+
+.border-bottom {
+    border-bottom: 1px solid;
+}
+
+.display-4 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.container {
+    padding-bottom: 20px;
+}
